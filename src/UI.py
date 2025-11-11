@@ -3,7 +3,7 @@ import json
 from PyQt5.QtWidgets import QApplication, QMainWindow, QDockWidget, QListWidget, QWidget, QVBoxLayout, QLabel, QMenuBar, QAction, QHBoxLayout
 from PyQt5.QtCore import Qt, QTimer
 import pyqtgraph as pg
-from src.trade_logic import GridBotLogic
+from trade_logic import GridBotLogic
 
 class SymbolListWidget(QListWidget):
     def __init__(self, logic):

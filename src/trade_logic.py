@@ -6,7 +6,7 @@ from binance import ThreadedWebsocketManager
 from binance.enums import *
 
 class GridBotLogic:
-    def __init__(self, settings_path='settings.json'):
+    def __init__(self, settings_path='../settings.json'):
         load_dotenv()
         self.api_key = os.getenv('BINANCE_API_KEY')
         self.api_secret = os.getenv('BINANCE_API_SECRET')
