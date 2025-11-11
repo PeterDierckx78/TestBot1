@@ -1,0 +1,4 @@
+python-binance
+python-dotenv
+PyQt5
+pyqtgraph

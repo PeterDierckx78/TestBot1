@@ -1,0 +1,8 @@
+{
+  "symbols": ["BTCUSDT", "ETHUSDT"],
+  "grid_size": 10,
+  "grid_spacing": 0.5,
+  "kline_interval": "1m",
+  "chart_timeframe_minutes": 60,
+  "max_open_trades": 5
+}
